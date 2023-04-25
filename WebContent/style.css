@@ -2,20 +2,164 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
-body {
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 	
-	color: #171c2d;
+}
+
+body {
+	background: url(./images/travel3.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
 	font-family: 'Poppins', sans-serif;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 h1 {
-		font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: 20px;	
+}
+
+p {
+	padding: 20px;
+}
+
+.formulario {
+	display: flex;
+	height: 30%;
+	width: 30%;
+   /*  background: transparent; */
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    position: absolute;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	left: 33%;
+	top: 33%;
+	/* backdrop-filter: blur(20px); */
+	overflow: hidden;
+	background-color: #eab56f;
+	opacity: 0.9;
+}
+
+
+input {
+	border: 2px solid rgba(255, 255, 255, .5);
+	border-radius: 5px;
+	height: 20px;
+	width: 100%;
+	padding:10px;
+	margin: 5px 0;
+	
+}
+
+.botao {
+	background: transparent;
+	border: 2px solid #171c2d;
+	color: #171c2d;
+	height: 35px;
+	margin-top: 10px;
+    text-align: center;
+	justify-content: center;
+	font-weight:500;
+	cursor: pointer;
+}
+
+
+.botao:hover{
+	background-color: #171c2d;
+	color: #fff;
 	
 }
 
 
- input {
-	border: 1px solid #171c2d;
-	
+.erro {
+	text-align: center;
 }
+
+.erro a {
+	color: #171c2d;
+	font-weight:500;
+	cursor: pointer;
+	margin-top: 40px;
+	text-decoration: none;
+}
+
+.erro a:hover{
+	background-color: #171c2d;
+	color: #fff;
+}
+
+h2{
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	margin-top: 20px;
+	font-size: 1rem;	
+}
+
+
+.formulario select {
+	font-size: 2rem;
+	width: 25vw;
+	color: #171c2d;
+}
+
+
+.botao-escolher {
+	justify-content: center;
+	background: transparent;
+	border: 2px solid #171c2d;
+	color: #171c2d;
+	height: 35px;
+	margin-top: 10px;
+    text-align: center;
+	justify-content: center;
+	font-weight:500;
+	cursor: pointer;
+}
+
+.botao-escolher:hover {
+	background-color: #171c2d;
+	color: #fff;
+
+}
+
+
+.card {
+	width: 400px;
+	height: 200px;
+	border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+	justify-content: center;
+	text-align: center;
+	background-color: #eab56f;
+	opacity: 0.9;
+	margin: 20px;
+	display: inline-block;
+	padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

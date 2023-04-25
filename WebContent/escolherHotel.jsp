@@ -18,22 +18,31 @@
 
 <title>.: Confira seus Hotéis .:</title>
 </head>
-<body>
+<body style="background: url(./images/viagem.jpg) no-repeat;" >
 
 <h1>Olha o que encontramos para você <c:out value="${User.nome}"/>!</h1>
-<hr/>
+
 <p> Os Hotéis da categoria selecionada são:</p>
+
+
+
+
 <c:forEach items="${listaHoteis}" var="hotel">
+
+<div class="card">
+
 	Hotel <c:out value="${hotel.nome}"/> <br>
 	Endereço: <c:out value="${hotel.endereco}"/><br>
 	Valor da Diária:
 			<c:out value="${hotel.valorDiaria}"/> <br>
 	Classificação:
 			<c:out value="${hotel.classificacao}"/> estrelas <br>
-<hr>
+
+</div>
 
 </c:forEach>
-	
+
+
 
 </body>
 </html>

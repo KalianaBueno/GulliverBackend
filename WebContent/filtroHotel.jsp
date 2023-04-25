@@ -19,17 +19,20 @@
 
 <title>.: Busque seu hotél pela classificação :.</title>
 </head>
-<body>
+<body style="background: url(./images/viagem.jpg) no-repeat;">
+
 <h1> Escolha seu Hotel</h1>
 <hr/>
-Olá <c:out value="${User.nome}"/>
+<h2>Olá <c:out value="${User.nome}"/>
 (<c:out value= "${User.email}"/>), <br>Seja bem vindo! <br>
+</h2>
 <hr>
 
-Selecione a classificação do hotel que você deseja:
+<h2>Selecione a classificação do hotel que você deseja:</h2>
 
+<div class="formulario">
 <form action="escolherHotel" method="get">
-<select name ="selectClassif">
+<select  name ="selectClassif">
 	<option value=1>1 Estrela </option>
 	<option value=2>2 Estrelas </option>
 	<option value=3>3 Estrelas </option>
@@ -37,10 +40,11 @@ Selecione a classificação do hotel que você deseja:
 	<option value=5>5 Estrelas </option>
 </select>
 <br>
-<input type="submit" value="Escolher">
+<input class="botao-escolher"  type="submit" value="Escolher">
 
 </form>
 
+</div>
 
 
 </body>

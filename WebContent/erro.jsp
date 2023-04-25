@@ -17,11 +17,15 @@
 </head>
 <body>
 
+<div class="erro">
 <h1> Erro!</h1>
 <hr>
 Mensagem de Erro: <c:out value="${Mensagem}" />
 <br>
-<a href="./index.jsp"> Voltar ao Inicio</a>
+<a href="./index.jsp"> Voltar ao início</a>
+
+</div> 
+
 
 </body>
 </html>

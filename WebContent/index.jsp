@@ -13,16 +13,20 @@
 
 <h1>.: Busque seu hotel de forma inteligente! :.</h1>
 
+<div class="formulario">
+
 <form action="loginServlet" method="post">
 
-Seu login: <input type="text" name="txtLogin"> <br>
-Sua senha: <input type="password" name="txtSenha"> <br>
+Usuário: <br>
+<input type="text" name="txtLogin"> <br>
+Senha:<br>
+<input type="password" name="txtSenha"> <br>
 
-<input class= botao type="submit" value="Enviar Dados">
-
+<input class= botao type="submit" value="ENTRAR">
 
 </form>
 
+</div>
 
 
 </body>
